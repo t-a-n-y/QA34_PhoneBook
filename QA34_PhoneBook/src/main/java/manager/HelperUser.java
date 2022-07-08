@@ -74,4 +74,11 @@ public class HelperUser extends HelperBase{
 
         return errorText.contains("Wrong email or password format");
     }
+
+
+    public void fillLoginForm(String email, String password) {
+        type(By.xpath("//input[1]"), email);
+        type(By.xpath("//input[2]"), password);
+    }
+
 }
