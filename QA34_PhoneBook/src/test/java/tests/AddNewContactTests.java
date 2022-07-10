@@ -3,27 +3,33 @@ package tests;
 
 import models.Contact;
 import models.User;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class AddNewContact extends TestBase {
+import java.util.Random;
+
+public class AddNewContactTests extends TestBase {
 
 
     @BeforeMethod
     public void preCondition() {
-        app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginForm("tanya@gmail.ru", "Ttanya123$");
-        app.getHelperUser().submitLogin();
+      if(!app.getHelperUser().isLogged()){
+          app.getHelperUser().login(new User().setEmail("tanya@gmail.ru").setPassword("Ttanya123$"));
+      }
 
     }
 
     @Test
     public void addNewContactSuccess() {
 
+        Random random = new Random();
+        int i = random.nextInt(1000)+1000;
+
         Contact contact = Contact.builder()
-                .name("Zoar")
+                .name("Zoar"+i)
                 .lastName("Hot")
-                .phone("0503425566")
+                .phone("0503425566"+i)
                 .email("zoar@gmail.com")
                 .address("Haifa")
                 .description("friend")
@@ -31,7 +37,9 @@ public class AddNewContact extends TestBase {
 
         app.contact().openComtactForm();
         app.contact().fillContactForm(contact);
-        app.contact().submit();
+        app.contact().saveContact();
+
+        Assert.assertTrue(app.contact().isContactAddedByName(contact.getName()));
     }
 
 
