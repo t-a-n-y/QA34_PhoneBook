@@ -1,0 +1,23 @@
+21:14:58.312  INFO  manager.ApplicationManager - All tests run in Chrome browser
+21:15:10.192  INFO  manager.ApplicationManager - Current Url ---> https://contacts-app.tobbymarshall815.vercel.app/home
+21:15:10.304  INFO  tests.TestBase - Start method with name --->addNewContactSuccess
+21:15:18.191  INFO  tests.TestBase - user
+21:15:18.312  INFO  tests.TestBase - Contact is ---> Contact(name=Zoar1730, lastName=Hot, phone=05034255661730, email=zoar@gmail.com, address=Haifa, description=friend)
+21:15:28.371  INFO  tests.TestBase - Check name ---> Zoar1730
+21:15:29.394  INFO  tests.TestBase - Check phone ---> 05034255661730
+21:15:29.407  INFO  tests.TestBase - Start method with name --->addNewContactSuccess
+21:15:29.473  INFO  tests.TestBase - Contact is ---> Contact(name=Zoar1123, lastName=Hot, phone=05034255661123, email=zoar@gmail.com, address=Haifa, description=friend)
+21:15:39.078  INFO  tests.TestBase - Check name ---> Zoar1123
+21:15:39.500  INFO  tests.TestBase - Check phone ---> 05034255661123
+21:15:39.505  INFO  tests.TestBase - Start method with name --->addNewContactSuccess
+21:15:39.543  INFO  tests.TestBase - Contact is ---> Contact(name=Zoar1822, lastName=Hot, phone=05034255661822, email=zoar@gmail.com, address=Haifa, description=friend)
+21:15:47.089  INFO  tests.TestBase - Check name ---> Zoar1822
+21:15:47.513  INFO  tests.TestBase - Check phone ---> 05034255661822
+21:15:47.520  INFO  tests.TestBase - Start method with name --->addNewContactSuccess
+21:15:47.549  INFO  tests.TestBase - Contact is ---> Contact(name=Zoar1685, lastName=Hot, phone=05034255661685, email=zoar@gmail.com, address=Haifa, description=friend)
+21:15:54.785  INFO  tests.TestBase - Check name ---> Zoar1685
+21:15:55.522  INFO  tests.TestBase - Check phone ---> 05034255661685
+21:15:55.527  INFO  tests.TestBase - Start method with name --->addNewContactSuccess
+21:15:55.555  INFO  tests.TestBase - Contact is ---> Contact(name=Zoar1821, lastName=Hot, phone=05034255661821, email=zoar@gmail.com, address=Haifa, description=friend)
+21:16:01.087  INFO  tests.TestBase - Check name ---> Zoar1821
+21:16:01.425  INFO  tests.TestBase - Check phone ---> 05034255661821

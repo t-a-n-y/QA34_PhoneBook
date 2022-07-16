@@ -16,11 +16,12 @@ public class AddNewContactTests extends TestBase {
     public void preCondition() {
       if(!app.getHelperUser().isLogged()){
           app.getHelperUser().login(new User().setEmail("tanya@gmail.ru").setPassword("Ttanya123$"));
+          logger.info("user");
       }
 
     }
 
-    @Test
+    @Test(invocationCount = 2)
     public void addNewContactSuccess() {
 
         Random random = new Random();
@@ -34,12 +35,16 @@ public class AddNewContactTests extends TestBase {
                 .address("Haifa")
                 .description("friend")
                 .build();
+        logger.info("Contact is ---> " + contact.toString());
 
-        app.contact().openComtactForm();
+        app.contact().openContactForm();
         app.contact().fillContactForm(contact);
         app.contact().saveContact();
 
         Assert.assertTrue(app.contact().isContactAddedByName(contact.getName()));
+        logger.info("Check name ---> " + contact.getName());
+        Assert.assertTrue(app.contact().isContactAddedByPhone(contact.getPhone()));
+        logger.info("Check phone ---> " + contact.getPhone());
     }
 
 
