@@ -1,0 +1,58 @@
+12:52:25.697  INFO  manager.ApplicationManager - All tests run in Chrome browser
+12:52:30.339  INFO  manager.ApplicationManager - Current Url ---> https://contacts-app.tobbymarshall815.vercel.app/home
+12:52:30.993  INFO  tests.TestBase - Start method with name --->removeAllContactsSuccess
+12:52:31.017  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Sign Out']
+12:52:36.121  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/login']
+12:52:36.958  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[1]
+12:52:39.122  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[2]
+12:52:39.959  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[1]
+12:52:40.300  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:52:43.792  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:52:45.126  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+12:52:46.002  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+12:52:47.388  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:52:48.196  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+12:52:48.757  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+12:52:50.046  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:52:50.571  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+12:52:51.425  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+12:52:52.497  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:52:56.665  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+12:52:57.791  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+12:52:59.778  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:53:01.077  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+12:53:03.361  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+12:53:05.430  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:53:06.728  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+12:53:07.823  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+12:53:09.331  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:53:10.470  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+12:53:11.752  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+12:53:13.163  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:53:13.566  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+12:53:14.372  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+12:53:16.074  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:53:16.626  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+12:53:17.114  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+12:53:18.189  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:53:18.488  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+12:53:19.247  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+12:53:20.779  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:53:21.008  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+12:53:22.118  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+12:53:23.137  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:53:23.403  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+12:53:24.260  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+12:53:25.515  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:53:25.713  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+12:53:26.040  INFO  manager.MyListener - The name of method with error -->click
+12:53:26.090  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [840b1de0d72241339d4c289f269ac328, clickElement {id=6d9b4bfb-07e3-40c4-8f7b-d53f894fc5cb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\alex\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59714}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59714/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (840b1de0d72241339d4c289f269ac328)] -> css selector: .contact-item_card__2SOIM]
+Session ID: 840b1de0d72241339d4c289f269ac328

@@ -1,0 +1,57 @@
+12:38:12.173  INFO  manager.ApplicationManager - All tests run in Chrome browser
+12:38:16.825  INFO  manager.ApplicationManager - Current Url ---> https://contacts-app.tobbymarshall815.vercel.app/home
+12:38:17.541  INFO  tests.TestBase - Start method with name --->removeAllContactsSuccess
+12:38:17.562  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Sign Out']
+12:38:22.715  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/login']
+12:38:23.518  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[1]
+12:38:25.346  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[2]
+12:38:26.456  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[1]
+12:38:26.823  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:38:30.182  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()='ADD']
+12:38:30.732  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Name']
+12:38:32.070  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Last Name']
+12:38:32.939  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Phone']
+12:38:33.496  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='email']
+12:38:34.436  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Address']
+12:38:35.682  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button b
+12:38:37.109  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()='ADD']
+12:38:37.705  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Name']
+12:38:38.546  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Last Name']
+12:38:39.320  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Phone']
+12:38:40.349  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='email']
+12:38:41.641  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Address']
+12:38:43.094  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button b
+12:38:44.679  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()='ADD']
+12:38:45.043  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Name']
+12:38:46.136  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Last Name']
+12:38:47.155  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Phone']
+12:38:48.016  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='email']
+12:38:49.573  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Address']
+12:38:50.388  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button b
+12:38:52.794  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:38:55.109  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+12:38:56.181  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+12:38:59.099  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:38:59.516  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+12:39:00.215  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+12:39:05.344  INFO  manager.MyListener - The name of method with error -->findElement
+12:39:05.374  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Remove']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f0451bb98a70c471fd2355e58b750486, findElement {using=xpath, value=//button[text()='Remove']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\alex\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53325}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53325/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f0451bb98a70c471fd2355e58b750486
+12:39:05.478  INFO  tests.TestBase - Start method with name --->removeOneContactSuccess
+12:39:05.482  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Sign Out']
+12:39:05.880  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:39:06.670  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:39:07.109  INFO  manager.HelperBase - Count before remove is 4
+12:39:07.117  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:39:07.495  INFO  manager.HelperBase - List of Contact not Empty
+12:39:07.516  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+12:39:08.192  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+12:39:11.426  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+12:39:11.670  INFO  manager.HelperBase - Count after remove is 4

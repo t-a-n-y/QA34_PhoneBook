@@ -1,0 +1,35 @@
+12:30:22.804  INFO  manager.ApplicationManager - All tests run in Chrome browser
+12:30:30.644  INFO  manager.ApplicationManager - Current Url ---> https://contacts-app.tobbymarshall815.vercel.app/home
+12:30:31.245  INFO  tests.TestBase - Start method with name --->addNewContactSuccess
+12:30:31.267  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Sign Out']
+12:30:36.399  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/login']
+12:30:38.429  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[1]
+12:30:41.523  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[2]
+12:30:43.375  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[1]
+12:30:44.225  INFO  tests.TestBase - user
+12:30:44.456  INFO  tests.TestBase - Contact is ---> Contact(name=Zoar1002, lastName=Hot, phone=05034255661002, email=zoar@gmail.com, address=Haifa, description=friend)
+12:30:45.490  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()='ADD']
+12:30:50.659  INFO  manager.MyListener - The name of method with error -->findElement
+12:30:50.686  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='ADD']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd95140134a8164c7b33566bb7559a71, findElement {using=xpath, value=//a[text()='ADD']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\alex\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52590}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52590/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fd95140134a8164c7b33566bb7559a71
+12:30:50.842  INFO  tests.TestBase - Start method with name --->addNewContactSuccess
+12:30:50.847  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Sign Out']
+12:30:55.991  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/login']
+12:30:56.362  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[1]
+12:31:01.432  INFO  manager.MyListener - The name of method with error -->findElement
+12:31:01.434  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[1]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd95140134a8164c7b33566bb7559a71, findElement {using=xpath, value=//input[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\alex\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52590}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52590/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fd95140134a8164c7b33566bb7559a71

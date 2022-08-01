@@ -1,0 +1,37 @@
+19:31:03.637  INFO  manager.ApplicationManager - All tests run in Chrome browser
+19:31:08.498  INFO  manager.ApplicationManager - Current Url ---> https://contacts-app.tobbymarshall815.vercel.app/home
+19:31:09.018  INFO  tests.TestBase - Start method with name --->addNewContactSuccess
+19:31:09.039  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Sign Out']
+19:31:14.175  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/login']
+19:31:15.627  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[1]
+19:31:17.178  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[2]
+19:31:18.709  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[1]
+19:31:19.526  INFO  tests.TestBase - user
+19:31:19.777  INFO  tests.TestBase - Contact is ---> Contact(name=Zoar1506, lastName=Hot, phone=05034255661506, email=zoar@gmail.com, address=Haifa, description=friend)
+19:31:20.785  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()='ADD']
+19:31:22.194  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Name']
+19:31:23.579  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Last Name']
+19:31:25.073  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Phone']
+19:31:28.613  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='email']
+19:31:29.931  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Address']
+19:31:31.175  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='description']
+19:31:31.988  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button b
+19:31:32.954  INFO  manager.MyListener - New Before find by --> By.cssSelector: h2
+19:31:36.302  INFO  tests.TestBase - Check name ---> Zoar1506
+19:31:36.305  INFO  manager.MyListener - New Before find by --> By.cssSelector: h3
+19:31:38.076  INFO  tests.TestBase - Check phone ---> 05034255661506
+19:31:38.215  INFO  tests.TestBase - Start method with name --->addNewContactSuccess
+19:31:38.220  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Sign Out']
+19:31:38.352  INFO  tests.TestBase - Contact is ---> Contact(name=Zoar1252, lastName=Hot, phone=05034255661252, email=zoar@gmail.com, address=Haifa, description=friend)
+19:31:39.425  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()='ADD']
+19:31:40.188  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Name']
+19:31:41.665  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Last Name']
+19:31:43.075  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Phone']
+19:31:45.481  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='email']
+19:31:47.059  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Address']
+19:31:48.124  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='description']
+19:31:49.402  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button b
+19:31:50.016  INFO  manager.MyListener - New Before find by --> By.cssSelector: h2
+19:31:54.766  INFO  tests.TestBase - Check name ---> Zoar1252
+19:31:54.768  INFO  manager.MyListener - New Before find by --> By.cssSelector: h3
+19:31:56.787  INFO  tests.TestBase - Check phone ---> 05034255661252

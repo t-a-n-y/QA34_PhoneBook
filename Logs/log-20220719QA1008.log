@@ -1,0 +1,18 @@
+10:09:17.449  INFO  manager.ApplicationManager - All tests run in Chrome browser
+10:09:20.438  INFO  manager.ApplicationManager - Current Url ---> https://contacts-app.tobbymarshall815.vercel.app/home
+10:09:20.886  INFO  tests.TestBase - Start method with name --->loginSuccess
+10:09:20.964  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Sign Out']
+10:09:26.050  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/login']
+10:09:26.669  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[1]
+10:09:30.383  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[]
+10:09:30.569  INFO  manager.MyListener - The name of method with error -->findElement
+10:09:30.580  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[]' is not a valid XPath expression.
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [711a983829cb7572ca2210c5b2261674, findElement {using=xpath, value=//input[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\alex\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58097}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58097/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 711a983829cb7572ca2210c5b2261674

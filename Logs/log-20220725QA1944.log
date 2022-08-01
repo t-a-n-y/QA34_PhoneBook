@@ -1,0 +1,38 @@
+19:44:47.351  INFO  manager.ApplicationManager - All tests run in Chrome browser
+19:44:50.693  INFO  manager.ApplicationManager - Current Url ---> https://contacts-app.tobbymarshall815.vercel.app/home
+19:44:51.581  INFO  tests.TestBase - Start method with name --->removeOneContactSuccess
+19:44:51.598  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Sign Out']
+19:44:56.776  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/login']
+19:44:57.721  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[1]
+19:44:59.395  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[2]
+19:45:00.697  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[1]
+19:45:01.224  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+19:45:05.034  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()='ADD']
+19:45:06.073  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Name']
+19:45:07.390  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Last Name']
+19:45:09.986  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Phone']
+19:45:11.885  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='email']
+19:45:14.126  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Address']
+19:45:15.982  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button b
+19:45:17.722  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()='ADD']
+19:45:18.281  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Name']
+19:45:19.218  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Last Name']
+19:45:20.410  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Phone']
+19:45:21.271  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='email']
+19:45:22.036  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Address']
+19:45:23.256  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button b
+19:45:24.754  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()='ADD']
+19:45:25.361  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Name']
+19:45:26.782  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Last Name']
+19:45:27.567  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Phone']
+19:45:28.590  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='email']
+19:45:29.753  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Address']
+19:45:30.769  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button b
+19:45:31.557  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+19:45:33.957  INFO  manager.HelperBase - Count before remove is 5
+19:45:33.969  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+19:45:34.457  INFO  manager.HelperBase - List of Contact not Empty
+19:45:34.458  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+19:45:35.299  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+19:45:37.760  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+19:45:37.965  INFO  manager.HelperBase - Count after remove is 4

@@ -1,0 +1,58 @@
+19:57:15.178  INFO  manager.ApplicationManager - All tests run in Chrome browser
+19:57:18.807  INFO  manager.ApplicationManager - Current Url ---> https://contacts-app.tobbymarshall815.vercel.app/home
+19:57:19.204  INFO  tests.TestBase - Start method with name --->removeAllContactsSuccess
+19:57:19.214  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Sign Out']
+19:57:24.420  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/login']
+19:57:25.742  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[1]
+19:57:27.183  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[2]
+19:57:28.247  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[1]
+19:57:29.054  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+19:57:32.980  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+19:57:33.819  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+19:57:34.615  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+19:57:37.184  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+19:57:37.763  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+19:57:38.312  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+19:57:40.808  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+19:57:40.990  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+19:57:41.429  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+19:57:44.155  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+19:57:44.467  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+19:57:47.109  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+19:57:50.186  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+19:57:50.870  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+19:57:51.416  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+19:57:54.701  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+19:58:00.165  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-page_message__2qafk h1
+19:58:01.071  INFO  tests.TestBase - Start method with name --->removeOneContactSuccess
+19:58:01.080  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Sign Out']
+19:58:01.328  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+19:58:07.456  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()='ADD']
+19:58:08.142  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Name']
+19:58:09.695  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Last Name']
+19:58:10.464  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Phone']
+19:58:11.503  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='email']
+19:58:12.531  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Address']
+19:58:13.863  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button b
+19:58:15.652  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()='ADD']
+19:58:16.136  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Name']
+19:58:17.330  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Last Name']
+19:58:18.112  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Phone']
+19:58:18.804  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='email']
+19:58:19.781  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Address']
+19:58:20.510  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button b
+19:58:21.805  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()='ADD']
+19:58:22.087  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Name']
+19:58:22.867  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Last Name']
+19:58:23.570  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Phone']
+19:58:24.591  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='email']
+19:58:25.520  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Address']
+19:58:26.157  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button b
+19:58:26.443  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+19:58:27.411  INFO  manager.HelperBase - Count before remove is 3
+19:58:27.412  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+19:58:27.533  INFO  manager.HelperBase - List of Contact not Empty
+19:58:27.534  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .contact-item_card__2SOIM
+19:58:27.977  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Remove']
+19:58:30.375  INFO  manager.MyListener - New Before find by --> By.cssSelector: .contact-item_card__2SOIM
+19:58:30.581  INFO  manager.HelperBase - Count after remove is 2
